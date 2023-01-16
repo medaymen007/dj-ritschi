@@ -1,0 +1,8 @@
+.service .title h2 {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}

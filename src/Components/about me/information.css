@@ -1,0 +1,99 @@
+.information .container {
+    display: flex;
+    height: 500px;
+}
+
+.information .imageParti {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 70px;
+}
+
+.information .infoParti {
+    width: 50%;
+}
+
+.information .imageOne {
+    height: 100%;
+}
+
+.information .partiOne {
+    width: 30%;
+    height: 100%;
+}
+
+.information .partiOne img {
+    width: 100%;
+    height: 101%;
+}
+
+.information .partiTwo {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.information .partiTwo .imageTwo {
+    width: 100%;
+    height: 60%;
+}
+
+.information .partiTwo .imageTwo img {
+    width: 100%;
+    height: 100%;
+}
+
+.information .partiTwo .restImages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 23px;
+}
+
+.information .partiTwo .restImages .imageThree {
+    width: 65%;
+}
+
+.information .partiTwo .restImages .imageThree img {
+    width: 100%;
+    height: 65%;
+}
+
+.information .partiTwo .restImages .imageFour {
+    width: 30%;
+}
+
+.information .partiTwo .restImages .imageFour img {
+    width: 100%;
+}
+
+.stroke-text {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.information .infoParti p {
+    color: orange;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.information .infoParti h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.information .infoParti img {
+    margin-bottom: 15px;
+}
+
+.information .infoParti div {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 27px;
+}

@@ -1,0 +1,31 @@
+.sideBar {
+    position: relative;
+    background-color: orange;
+    width: 20%;
+}
+
+.sideBar .sideImage {
+    position: absolute;
+    height: 60%;
+    width: 80%;
+    right: 300px;
+    top: 50px;
+}
+
+.sideBar .sideImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.sideBar .me {
+    position: absolute;
+    height: 80%;
+    width: 130%;
+    right: 100px;
+    bottom: 80px;
+}
+
+.sideBar .me img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,21 @@
+.postal img {
+    width: 100%;
+}
+
+.postal {
+    outline: none;
+    padding: 60px;
+}
+
+.slick-prev {
+    left: 10px;
+    z-index: 20;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-dots {
+    bottom: 0;
+}

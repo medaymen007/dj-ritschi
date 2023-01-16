@@ -1,0 +1,78 @@
+.lading .moveTitle {
+    position: relative;
+    align-items: center;
+    background-color: #393d42;
+    border-radius: 4rem;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+    letter-spacing: 2px;
+    margin-top: 4rem;
+    padding: 20px 13px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    z-index: 0;
+}
+
+.lading .moveTitle span {
+    border-radius: 2rem;
+    z-index: -1;
+    position: absolute;
+    left: 7px;
+    height: 80%;
+    width: 30%;
+    background-color: orange;
+    z-index: -1;
+}
+
+.lading .title {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 4.5rem;
+    font-weight: 700;
+    gap: 1.5rem;
+    text-overflow: inherit;
+    text-transform: uppercase;
+}
+
+.lading .stroke-text {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lading .title>div:nth-of-type(3) {
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: none;
+    width: 80%;
+}
+
+.lading .statistics {
+    display: flex;
+    gap: 4rem;
+}
+
+.lading .statistics div {
+    display: flex;
+    flex-direction: column;
+}
+
+.lading .statistics div>span:first-of-type {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.lading .statistics>div>span:nth-of-type(2) {
+    color: #9c9c9c;
+    text-transform: uppercase;
+}
+
+.lading .container div {
+    margin-bottom: 30px;
+}
