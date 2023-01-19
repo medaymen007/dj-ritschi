@@ -9,6 +9,7 @@ import Firstsection from './Components/firstSection/firstSection';
 import Programmes from './Components/programmes/programmes';
 import Information from './Components/about me/information';
 import Service from './Components/service/service';
+import Testimonials from './Components/Testimonials/Testimonials';
 
 
 
@@ -19,6 +20,7 @@ function App() {
      <Programmes/>
      <Information/>
      <Service/>
+     <Testimonials/>
     </div>
   );
 }

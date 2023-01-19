@@ -6,3 +6,81 @@
     justify-content: space-evenly;
     color: #fff;
 }
+
+.service .title {
+    margin-bottom: 80px;
+}
+
+.cartes {
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.pro,
+.basic {
+    height: 450px;
+    width: 310px;
+}
+
+.carte {
+    background: #656565;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+}
+
+.premium button {
+    color: orange;
+}
+
+.premium {
+    height: 500px;
+    width: 320px;
+    background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+}
+
+.carte>:nth-child(1) {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.carte h4 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature p {
+    margin-left: 10px;
+}
+
+.feature>img {
+    width: 1rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.carte>:nth-child(5) {
+    font-size: .8rem;
+}
+
+.cartes button {
+    background-color: #fff;
+    border: 4px solid transparent;
+    font-weight: 700;
+    padding: .5rem;
+    font-size: .8rem;
+    transition: all .3s;
+}
