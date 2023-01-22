@@ -10,6 +10,7 @@ import Programmes from './Components/programmes/programmes';
 import Information from './Components/about me/information';
 import Service from './Components/service/service';
 import Testimonials from './Components/Testimonials/Testimonials';
+import Contact from './Components/contact/contat';
 
 
 
@@ -21,6 +22,7 @@ function App() {
      <Information/>
      <Service/>
      <Testimonials/>
+     <Contact/>
     </div>
   );
 }

@@ -56,9 +56,62 @@
 .testimonials .partiTwo .images {
     left: 16px;
     top: 16px;
+    z-index: 3;
 }
 
 .testimonials .partiTwo .images img {
     width: 100%;
     height: 100%;
+}
+
+.testimonials .review {
+    color: white;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: justify;
+    text-transform: none;
+    opacity: 1;
+    transform: none;
+    font-family: Inter, sans-serif;
+    width: 800px;
+}
+
+.testimonials .name {
+    color: #f48916;
+}
+
+.testimonials .partiTwo {
+    display: flex;
+}
+
+.testimonials .status {
+    color: white;
+}
+
+.testimonials .introduction {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.butt-left-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.testimonials .butt-left-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.testimonials .image-left {
+    width: 20px;
+    height: 20px;
+}
+
+.testimonials .image-right {
+    width: 20px;
+    height: 20px;
 }
