@@ -22,5 +22,20 @@
 }
 
 .nevbar .links a:hover {
-    color: orange;
+    color: #f48915;
+}
+
+@media (max-width:767px) {
+    .nevbar .links {
+        display: flex;
+        position: fixed;
+        right: 2rem;
+        top: 2rem;
+        background-color: #3c3f45;
+        flex-direction: column;
+        padding: 2rem;
+        color: #fff;
+        gap: 2rem;
+        z-index: 99;
+    }
 }

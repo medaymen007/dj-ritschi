@@ -6,8 +6,10 @@ import "./programmes.css"
 const Programmes=()=>{
   
     return(
-          <div className="Programmes" >
+          <div className="Programmes" id="Programs">
             <div className="container">
+            <div className="blur hero-blur" ></div>
+
             <div className="title">
                 <div><span className="stroke-text">EXPLORE OUR</span></div>
                 <div><span>PROGRAMS</span></div>

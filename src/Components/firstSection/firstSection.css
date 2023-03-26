@@ -2,3 +2,29 @@
     display: flex;
     justify-content: space-between;
 }
+
+.blur {
+    background: rgba(253, 120, 43, .69);
+    border-radius: 50%;
+    -webkit-filter: blur(212px);
+    filter: blur(212px);
+    -webkit-filter: blur(150px);
+    filter: blur(150px);
+    position: absolute;
+    z-index: -9;
+}
+
+.hero-blur {
+    height: 30rem;
+    left: 0;
+    width: 22rem;
+}
+
+@media (max-width:767px) {
+    .firstSec {
+        flex-direction: column;
+    }
+    .hero-blur {
+        width: 14rem;
+    }
+}

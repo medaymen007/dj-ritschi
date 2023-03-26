@@ -5,7 +5,7 @@
 }
 
 .testimonials .first-title {
-    color: orange;
+    color: #f48915;
     font-weight: 700;
 }
 
@@ -42,7 +42,7 @@
 
 .testimonials .partiTwo .cadre {
     background-color: transparent;
-    border: 2px solid orange;
+    border: 2px solid #f48915;
     z-index: 1;
 }
 
@@ -114,4 +114,25 @@
 .testimonials .image-right {
     width: 20px;
     height: 20px;
+}
+
+@media (max-width:767px) {
+    .testimonials .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+    }
+    .testimonials .partiOne {
+        height: 343px;
+    }
+    .testimonials .partiTwo {
+        display: flex;
+        height: 379px;
+    }
+    .testimonials .review {
+        color: white;
+        letter-spacing: 2px;
+        line-height: 28px;
+        width: fit-content;
+    }
 }

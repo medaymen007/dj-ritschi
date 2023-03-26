@@ -1,3 +1,14 @@
+.blur {
+    background: rgba(253, 120, 43, .69);
+    border-radius: 50%;
+    -webkit-filter: blur(212px);
+    filter: blur(212px);
+    -webkit-filter: blur(150px);
+    filter: blur(150px);
+    position: absolute;
+    z-index: -9;
+}
+
 .lading .moveTitle {
     position: relative;
     align-items: center;
@@ -16,14 +27,14 @@
     z-index: 0;
 }
 
-.lading .moveTitle span {
+.lading .moveTitle div {
     border-radius: 2rem;
-    z-index: -1;
     position: absolute;
     left: 7px;
+    top: 5px;
     height: 80%;
     width: 30%;
-    background-color: orange;
+    background-color: #f48915;
     z-index: -1;
 }
 
@@ -75,4 +86,30 @@
 
 .lading .container div {
     margin-bottom: 30px;
+}
+
+@media (max-width:767px) {
+    .lading .title {
+        align-items: center;
+        font-size: xx-large;
+        justify-content: center;
+    }
+    .lading .moveTitle {
+        margin: 30px auto;
+    }
+    .lading .moveTitle p {
+        font-size: small;
+    }
+    .lading .title>div:nth-of-type(3) {
+        width: 82%;
+        text-align: center;
+    }
+    .lading .statistics {
+        display: flex;
+        gap: 2rem;
+    }
+    .lading .statistics div>span:first-of-type {
+        color: #fff;
+        font-size: 27px;
+    }
 }

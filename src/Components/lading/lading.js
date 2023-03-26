@@ -1,13 +1,19 @@
 import React from "react";
 import "./lading.css"
-
-
+import NumberCounter from "number-counter"
+import {motion} from "framer-motion"
 const Lading=()=>{
+    const transition = {type :'spring ', duration:3}
     return(
         <div className="lading" >
         <div className="container">
+            <div className="blur hero-blur"></div>
             <div className="moveTitle">
-                <span></span>
+            <motion.div
+                initial={{left:'238px' }} 
+                whileInView={{left:'8px'}}
+                transition={{...transition, type:'tween'}}>
+             </motion.div>
                 <p>The Best Dj In The deutschland</p>
             </div>
             
@@ -20,15 +26,15 @@ const Lading=()=>{
            </div>
             <div className="statistics">
                 <div className="peopleFollow">
-                    <span>+ 140</span>
+                    <span><NumberCounter end={140} start={100} delay="4" preFix="+"/></span>
                     <span>People Follow me </span>
                 </div>
                 <div className="party">
-                    <span>+ 440</span>
+                    <span><NumberCounter end={440} start={400} delay="4" preFix="+"/></span>
                     <span>Club Night Party</span>
                 </div>
                 <div className="peopleFollow">
-                    <span>+ 500</span>
+                    <span><NumberCounter end={500} start={400} delay="4" preFix="+"/></span>
                     <span>concerts</span>
                 </div>
             </div>

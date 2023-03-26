@@ -3,3 +3,14 @@
     flex-direction: column;
     width: 80%;
 }
+
+@media (max-width:767px) {
+    .leftSide {
+        gap: 2rem;
+        padding: 1.5rem 2rem 2rem;
+        text-align: center;
+        align-items: center;
+        font-size: xx-large;
+        justify-content: center;
+    }
+}

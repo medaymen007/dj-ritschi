@@ -17,3 +17,19 @@
      color: #fff;
      font-family: Inter, sans-serif;
  }
+ 
+ @media (max-width:767px) {
+     .Programmes .title {
+         display: flex;
+         justify-content: space-around;
+         flex-direction: column;
+         font-size: 3rem;
+         font-style: italic;
+         font-weight: 700;
+         align-items: center;
+         font-size: xx-large;
+         gap: 1rem;
+         justify-content: center;
+         margin-top: 2rem;
+     }
+ }

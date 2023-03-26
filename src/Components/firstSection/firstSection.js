@@ -5,7 +5,8 @@ import Leftside from "../leftSide/leftSide"
 
 const Firstsection=()=>{
     return(
-        <div className="firstSec" >
+        <div className="firstSec" id="Home">
+         <div className="blur hero-blur"></div>
            <Leftside/>
            <Rightside/>
         </div>

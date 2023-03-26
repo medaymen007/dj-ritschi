@@ -5,8 +5,9 @@ import okOne from "../images/ok1.png"
 
 const Service=()=>{
     return(
-        <div className="service">
+        <div className="service" id="Plans">
           <div className="container">
+            <div className="blur hero-blur" ></div>
             <div className="title">
                 <h2> <div className="stroke-text"> READY TO START </div>  YOUR JOURNEY <div className="stroke-text" >NOW WITH US</div> </h2>
             </div>
@@ -20,8 +21,8 @@ const Service=()=>{
                   <div className="feature"> <img src={okOne} alt="" /> <p>!!!!!!!!!!!!!!!!!!!!!</p> </div>
                   </div>
                   <p>call me for more information</p>
-                  <button>CALL ME</button>
-                  <button>SEND ME E-MAIL</button>
+                  <a href="tel:+49 177 4650913" >CALL ME</a>
+                  <a href="mailto:rochdi2409@icloud.com">SEND ME E-MAIL</a>
                 </div>
                 <div className="premium carte">
                 <h4>PREMIUM PLAN</h4>
@@ -32,8 +33,8 @@ const Service=()=>{
                   <div className="feature"> <img src={okOne} alt="" /> <p>!!!!!!!!!!!!!!!!!!!!!</p> </div>
                   </div>
                   <p>call me for more information</p>
-                  <button>CALL ME</button>
-                  <button>SEND ME E-MAIL</button>
+                  <a href="tel:+49 177 4650913" >CALL ME</a>
+                  <a href="mailto:rochdi2409@icloud.com">SEND ME E-MAIL</a>
                 </div>
                 <div className="pro carte">
                 <h4>PRO PLAN</h4>
@@ -44,8 +45,8 @@ const Service=()=>{
                   <div className="feature"> <img src={okOne} alt="" /> <p>!!!!!!!!!!!!!!!!!!!!!</p> </div>
                   </div>
                   <p>call me for more information</p>
-                  <button>CALL ME</button>
-                  <button>SEND ME E-MAIL</button>
+                  <a href="tel:+49 177 4650913" >CALL ME</a>
+                  <a href="mailto:rochdi2409@icloud.com">SEND ME E-MAIL</a>
                 </div>
             </div>
           </div>

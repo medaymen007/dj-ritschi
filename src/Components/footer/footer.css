@@ -1,0 +1,27 @@
+.footer .container {
+    align-items: center;
+    flex-direction: column;
+    height: 20rem;
+    justify-content: center;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 4rem;
+    color: #fff;
+}
+
+.hrSpe {
+    border: 1px solid #d9d9d9;
+}
+
+.footer .iconZone {
+    display: flex;
+    gap: 50px;
+}
+
+.footer .iconZone i {
+    font-size: 40px;
+}
+
+.footer .iconZone a {
+    color: white;
+}
