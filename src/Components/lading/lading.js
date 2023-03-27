@@ -14,7 +14,7 @@ const Lading=()=>{
                 whileInView={{left:'8px'}}
                 transition={{...transition, type:'tween'}}>
              </motion.div>
-                <p>The Best Dj In The deutschland .</p>
+                <p>The Best Dj In The deutschland </p>
             </div>
             
             <div class="title">
